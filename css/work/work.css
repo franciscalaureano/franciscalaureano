@@ -30,17 +30,16 @@ section {
   background-color: #eae8e2;
   text-decoration: none;
   border: none;
-  color: rgba(161, 191, 233, 0.6);
+  color: rgba(123, 170, 248, 0.6);
   /*transition-duration: 0.8s;*/
 }
 
 .btn:active {
-  color: rgba(161, 191, 233, 1);
-  transition-duration: 0.8s;
+  color: rgba(123, 170, 248, 1);
 }
 
 .btn:hover {
-  color: rgba(161, 191, 233, 1);
+  color: rgba(123, 170, 248, 1);
   transition-duration: 0.8s;
   cursor: pointer;
 }

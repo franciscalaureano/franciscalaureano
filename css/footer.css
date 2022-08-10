@@ -1,5 +1,6 @@
 footer {
-  background-color: #e0c4be;
+  background-color: rgba(201, 93, 93, 40%);
+
   width: 100%;
   height: auto;
 }
@@ -14,7 +15,7 @@ form {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 1.5vh;
+  padding-top: 2vh;
   align-items: center;
   padding-bottom: 3vh;
 }
@@ -36,7 +37,8 @@ input {
 }
 
 ::placeholder {
-  color: #c7c5c0;
+  color: #363333;
+  opacity: 0.5;
 }
 
 #form_submit {
@@ -44,7 +46,7 @@ input {
   height: 4.5vh;
   margin-left: 1vw;
   background: #eae8e2;
-  color: #d18f89;
+  color: #c95d5d;
   border: 0;
   border-radius: 7px;
   font-family: Poppins-Medium;

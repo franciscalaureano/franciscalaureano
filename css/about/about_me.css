@@ -29,7 +29,7 @@
 #right_side h3 {
   font-size: 2vw;
   margin-bottom: 2vh;
-  color: rgba(161, 191, 233, 1);
+  color: #7baaf8;
 }
 
 #right_side p {
@@ -51,8 +51,8 @@
   font-weight: 300;
   font-size: 2vh;
   font-style: normal;
-  background-color: rgba(209, 143, 137, 0.5);
-  color: #3b3737;
+  background-color: rgba(201, 93, 93, 100%);
+  color: #eae8e2;
   border-radius: 7px;
   transition-duration: 1s;
   text-decoration: none;
@@ -60,5 +60,5 @@
 
 #chat_button:hover {
   transition-duration: 0.8s;
-  background-color: #a1bfe9;
+  background-color: #7baaf8;
 }

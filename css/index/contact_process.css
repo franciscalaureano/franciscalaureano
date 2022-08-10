@@ -1,10 +1,3 @@
-/*#contact_process {
-  margin-top: 8vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}*/
-
 #contact_process {
   overflow-x: hidden;
   margin: 5% 7% 0 7%;
@@ -20,8 +13,8 @@
 
 #process_box h2 {
   text-align: left;
-  color: #a1bfe9;
-  font-size: 2vw;
+  color: #7baaf8;
+  font-size: 1.8vw;
 }
 
 #process_box p {
