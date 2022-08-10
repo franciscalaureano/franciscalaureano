@@ -1,0 +1,85 @@
+#all {
+  background-color: rgba(161, 191, 233, 0.5);
+  padding-top: 0.1%;
+}
+
+#work_h3 {
+  margin: 0% 9%;
+}
+
+#experience {
+  margin: 0% 9%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr auto;
+  column-gap: 2%;
+}
+
+#work_left_side {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  margin-bottom: 3vh;
+}
+
+#work_right_side {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+#education {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  margin-bottom: 6%;
+}
+
+#skills {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+#geral_skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+#skills_left {
+  grid-column-start: 1;
+}
+#skills_right {
+  grid-column-start: 2;
+}
+
+/*----------------------------------- */
+/*-------------- Text --------------- */
+/*----------------------------------- */
+#work_h3,
+#education_h3,
+#skills_h3 {
+  margin-top: 3%;
+  font-size: 2vw;
+  margin-bottom: 1vh;
+}
+
+p {
+  font-family: Poppins-Regular;
+  font-size: 1vw;
+}
+
+.cv .title,
+.education .title {
+  font-family: Poppins-Medium;
+  font-size: 1.5vw;
+}
+.cv .entity,
+.education .entity,
+#geral_skills {
+  font-family: Poppins-Regular;
+  font-size: 1.2vw;
+  padding-bottom: 0.5vh;
+}
+
+.cv .date,
+.education .date {
+  padding-bottom: 2vh;
+}

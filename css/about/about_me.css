@@ -1,0 +1,64 @@
+#h1_about {
+  font-size: 8vw;
+  line-height: 100%;
+  padding-left: 9vw;
+  padding-top: 6vh;
+}
+#about_me {
+  overflow-x: hidden;
+  margin: 3% 0;
+  display: grid;
+  grid-template-columns: 7% 41% 38%;
+  grid-template-rows: 100%;
+  justify-items: center;
+  column-gap: 2%;
+}
+
+#left_side {
+  grid-column-start: 2;
+}
+
+#right_side {
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+/*----------------------------------- */
+/*-------------- Text --------------- */
+/*----------------------------------- */
+#right_side h3 {
+  font-size: 2vw;
+  margin-bottom: 2vh;
+  color: rgba(161, 191, 233, 1);
+}
+
+#right_side p {
+  font-family: Poppins-Regular;
+  font-size: 1.2vw;
+}
+
+/*----------------------------------- */
+/*------------- Buttons ------------- */
+/*----------------------------------- */
+
+#about_button {
+  padding-top: 5vh;
+}
+
+#chat_button {
+  padding: 2% 5%;
+  font-family: Poppins-SemiBold;
+  font-weight: 300;
+  font-size: 2vh;
+  font-style: normal;
+  background-color: rgba(209, 143, 137, 0.5);
+  color: #3b3737;
+  border-radius: 7px;
+  transition-duration: 1s;
+  text-decoration: none;
+}
+
+#chat_button:hover {
+  transition-duration: 0.8s;
+  background-color: #a1bfe9;
+}

@@ -1,0 +1,17 @@
+#why_me {
+  margin: 0% 9%;
+}
+
+#why_me h3 {
+  padding-top: 7vh;
+  padding-bottom: 2vh;
+  font-size: 2vw;
+  color: rgba(161, 191, 233, 1);
+}
+
+#why_me p {
+  width: 50%;
+  padding-bottom: 8vh;
+  font-family: Poppins-Regular;
+  font-size: 1.2vw;
+}

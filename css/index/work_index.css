@@ -1,0 +1,125 @@
+#work_preview {
+  margin-top: 20vh;
+}
+
+#work_preview h2 {
+  display: flex;
+  justify-content: center;
+  color: #a1bfe9;
+  font-size: 4vw;
+}
+
+#work_preview_img {
+  margin: 2% 9% 5% 9%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2%;
+  row-gap: 2%;
+}
+
+#wc_button_container {
+  padding-top: 2vh;
+  display: flex;
+  justify-content: center;
+}
+
+#work_card_button {
+  border: none;
+  padding: 1.2vh 1.5vw;
+  /**/
+  font-family: Poppins-SemiBold;
+  font-weight: 300;
+  font-size: 2vh;
+  font-style: normal;
+  color: #3b3737;
+  /**/
+  background-color: rgba(161, 191, 233, 0.5);
+  border-radius: 7px;
+  margin-bottom: 6vh;
+  text-decoration: none;
+  transition-duration: 1s;
+}
+
+#work_card_button:hover {
+  transition-duration: 1s;
+  background-color: rgba(209, 143, 137, 0.5);
+  cursor: pointer;
+}
+
+#work_preview_img:hover #work_img_card {
+  transition-duration: 0.8s;
+  filter: grayscale(100%);
+}
+#work_preview_img #work_img_card:hover {
+  transition-duration: 0.8s;
+  filter: grayscale(0%);
+}
+
+/*TABLET*/
+@media only screen and (max-device-width: 768px) {
+  #work_preview {
+    margin-top: 8vh;
+  }
+
+  #work_preview_img {
+    margin: 5% 6%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5%;
+    row-gap: 5%;
+  }
+
+  #work_card_button {
+    padding: 1.5vh 2.5vw;
+  }
+}
+
+/*Mobile Phone L*/
+@media only screen and (max-device-width: 425px) {
+  #work_preview {
+    margin-top: 5vh;
+  }
+
+  #work_preview h2 {
+    font-size: 5vh;
+  }
+
+  #work_preview_img {
+    margin: 5% 8%;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 15pt;
+  }
+
+  #work_card_button {
+    padding: 1.5vh 3vw;
+  }
+}
+
+/*Mobile Phone S*/
+@media only screen and (max-device-width: 320px) {
+  #work_preview h2 {
+    font-size: 4vh;
+  }
+}
+
+/*#work_preview_img {
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition-duration: 0.8s;
+}
+
+#work_img_card {
+  width: 35vw;
+  margin-bottom: 4vh;
+  transition-duration: 0.8s;
+}
+
+.work_card_left {
+  margin-right: 4vw;
+}
+
+*/
