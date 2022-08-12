@@ -17,7 +17,7 @@ form {
   justify-content: center;
   padding-top: 2vh;
   align-items: center;
-  padding-bottom: 3vh;
+  padding-bottom: 4vh;
 }
 
 input {
@@ -55,6 +55,13 @@ input {
   font-size: 1vw;
 }
 
+#form_submit:hover {
+  cursor: pointer;
+  background: #c95d5d;
+  color: #eae8e2;
+  transition: 0.5s;
+}
+
 #social_media {
   display: flex;
   flex-direction: row;
@@ -64,9 +71,9 @@ input {
   padding-bottom: 4vh;
 }
 #social_media a {
-  width: 2vw;
+  width: 2.2vw;
   padding-right: 2vh;
-  opacity: 50%;
+  /*opacity: 50%;*/
 }
 
 /*LAPTOP*/
