@@ -32,9 +32,9 @@
   font-weight: 300;
   font-size: 2vh;
   font-style: normal;
-  color: #eae8e2;
-  /**/
-  background-color: rgba(201, 93, 93, 100%);
+  /*color: #eae8e2;
+  
+  background-color: rgba(201, 93, 93, 100%);*/
   border-radius: 7px;
   margin-bottom: 6vh;
   text-decoration: none;
@@ -42,8 +42,6 @@
 }
 
 #work_card_button:hover {
-  transition-duration: 1s;
-  background-color: #7baaf8;
   cursor: pointer;
 }
 

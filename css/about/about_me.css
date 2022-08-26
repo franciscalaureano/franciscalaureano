@@ -51,14 +51,14 @@
   font-weight: 300;
   font-size: 2vh;
   font-style: normal;
-  background-color: rgba(201, 93, 93, 100%);
-  color: #eae8e2;
+  /* background-color: rgba(201, 93, 93, 100%);
+  color: #eae8e2;*/
   border-radius: 7px;
   transition-duration: 1s;
   text-decoration: none;
 }
 
-#chat_button:hover {
+/*#chat_button:hover {
   transition-duration: 0.8s;
   background-color: #7baaf8;
-}
+}*/

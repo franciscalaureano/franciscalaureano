@@ -48,29 +48,29 @@
 }
 
 #talk_button {
-  background-color: rgba(201, 93, 93, 100%);
-  color: #eae8e2;
+  /*background-color: rgba(201, 93, 93, 100%);
+  color: #eae8e2;*/
   border-radius: 7px;
   transition-duration: 1s;
   text-decoration: none;
 }
 
-#talk_button:hover {
+/*#talk_button:hover {
   transition-duration: 0.8s;
   background-color: #7baaf8;
-}
+}*/
 
 #me_button {
   background-color: none;
-  color: rgba(201, 93, 93, 100%);
+  /*color: rgba(201, 93, 93, 100%);*/
   transition-duration: 1s;
   text-decoration: none;
 }
 
-#me_button:hover {
+/*#me_button:hover {
   transition-duration: 0.8s;
   color: #7baaf8;
-}
+}*/
 /*----------------------------------- */
 /*-------------- Video -------------- */
 /*----------------------------------- */

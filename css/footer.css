@@ -45,8 +45,8 @@ input {
   width: 8vw;
   height: 4.5vh;
   margin-left: 1vw;
-  background: #eae8e2;
-  color: #c95d5d;
+  /*background: #eae8e2;
+  color: #c95d5d;*/
   border: 0;
   border-radius: 7px;
   font-family: Poppins-Medium;
@@ -57,9 +57,9 @@ input {
 
 #form_submit:hover {
   cursor: pointer;
-  background: #c95d5d;
+  /*background: #c95d5d;
   color: #eae8e2;
-  transition: 0.5s;
+  transition: 0.5s;*/
 }
 
 #social_media {
